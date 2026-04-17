@@ -1,4 +1,4 @@
-# @orgx/data
+# @useorgx/orgx-data
 
 TypeScript contracts + React hooks for every Sovereign Execution surface. Single source of truth for wire shape between server routes and consumers (useorgx.com, Tauri shell, plugin dashboards, MCP widgets).
 
