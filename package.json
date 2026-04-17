@@ -1,0 +1,42 @@
+{
+  "name": "@orgx/data",
+  "version": "0.1.0-alpha.0",
+  "description": "TypeScript contracts + React hooks for Sovereign Execution surfaces. Shared between useorgx.com, the Tauri shell, plugin dashboards, and MCP widgets.",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./contracts": {
+      "types": "./dist/contracts.d.ts",
+      "import": "./dist/contracts.js"
+    }
+  },
+  "sideEffects": false,
+  "files": ["dist", "README.md"],
+  "scripts": {
+    "build": "tsc",
+    "type-check": "tsc --noEmit",
+    "test": "echo '@orgx/data test: no-op in MVP'"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/useorgx/data.git"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "react": "^19.0.0",
+    "typescript": "^5.4.0"
+  }
+}
