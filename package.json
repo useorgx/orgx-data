@@ -19,6 +19,7 @@
   "sideEffects": false,
   "files": ["dist", "README.md"],
   "scripts": {
+    "prepare": "npm run build",
     "build": "tsc",
     "type-check": "tsc --noEmit",
     "test": "echo '@useorgx/orgx-data test: no-op in MVP'"
