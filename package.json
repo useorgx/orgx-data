@@ -1,6 +1,6 @@
 {
   "name": "@useorgx/orgx-data",
-  "version": "0.1.0-alpha.0",
+  "version": "0.1.0-alpha.1",
   "description": "TypeScript contracts + React hooks for Sovereign Execution surfaces. Shared between useorgx.com, the Tauri shell, plugin dashboards, and MCP widgets.",
   "type": "module",
   "main": "dist/index.js",
